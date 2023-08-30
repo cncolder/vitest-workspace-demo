@@ -1,0 +1,16 @@
+{
+  "name": "vitest-workspace-demo",
+  "private": true,
+  "workspaces": [
+    "a",
+    "b"
+  ],
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@vitest-workspace-demo/a",
+  "scripts": {
+    "test": "vitest"
+  }
+}
