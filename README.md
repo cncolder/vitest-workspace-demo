@@ -7,4 +7,6 @@ npm i
 npm test
 ```
 
-The `vite.config.ts` of two projects are loaded. But the configs are not apply to the source codes.
+Vitest has read the `vite.config.ts` file under each projects. However, these configuration files did not take effect due to test error `ReferenceError: __DEV__ is not defined` is thrown.
+
+Running vitest separately under each project is ok.
